@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: lightgray; 
+    position: fixed;
+    top: 0; 
+}
+
+header{
+    padding: 10%;
+    background-color: darkslategray; 
+}
+
+section{
+    min-height: 200px; 
+    background-color: lightslategray; 
+}
+
+section:nth-child(even){
+    background-color: darkgray
+}
+
+
