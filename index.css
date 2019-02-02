@@ -21,7 +21,6 @@ h3 {
 
 header{
     font-family: 'Bitter', serif;
-    padding: 10%;
 }
 
 section{
@@ -29,9 +28,7 @@ section{
     min-height: 200px; 
 }
 
-section:nth-child(even){
+.screenshot{
+    width: 50vw; 
+    height: 50vh; 
 }
-
-
-font-family: 'Bitter', serif;
-font-family: 'Raleway', sans-serif;
