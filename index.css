@@ -1,25 +1,37 @@
 * {
     box-sizing: border-box;
 }
+a{
+    color: white; 
+}
+body{
+    background-color: #003366;
+    color: white;  
+}
 
 nav{
-    background-color: lightgray; 
+    font-family: 'Raleway', sans-serif;
     position: fixed;
     top: 0; 
 }
 
+h3 {
+    font-family: 'Bitter', serif;
+}
+
 header{
+    font-family: 'Bitter', serif;
     padding: 10%;
-    background-color: darkslategray; 
 }
 
 section{
+    font-family: 'Raleway', sans-serif;
     min-height: 200px; 
-    background-color: lightslategray; 
 }
 
 section:nth-child(even){
-    background-color: darkgray
 }
 
 
+font-family: 'Bitter', serif;
+font-family: 'Raleway', sans-serif;
