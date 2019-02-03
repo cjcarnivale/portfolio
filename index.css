@@ -12,10 +12,18 @@ body{
 nav{
     font-family: 'Raleway', sans-serif;
     position: fixed;
-    top: 0; 
+    top: 0;
+    right: 0; 
+    background-color:#d8d8d8; 
+    width: 100%;
+    font-size: 12px;
+    text-align: right;   
+}
+nav a{
+    color: #003366;
 }
 
-h3 {
+h2 {
     font-family: 'Bitter', serif;
 }
 
@@ -25,10 +33,24 @@ header{
 
 section{
     font-family: 'Raleway', sans-serif;
-    min-height: 200px; 
+    min-height: 100px; 
 }
 
 .screenshot{
-    width: 50vw; 
-    height: 50vh; 
+    width: 400px;
+    height: 200px; 
+
+}
+
+p{
+    line-height: 25px; 
+    width: 100%; 
+}
+
+h3{
+    font-family: 'Raleway', sans-serif; 
+}
+
+hr{
+    background-color: #ffd700
 }
