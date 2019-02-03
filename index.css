@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
 }
+
+*:focus{
+    color: red; 
+}
+
 a{
     color: white; 
 }
@@ -111,3 +116,4 @@ hr{
         height: 300px; 
     }
 }
+
