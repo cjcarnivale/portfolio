@@ -8,7 +8,51 @@
 
 body{
     background-color: #2a749b;
-    color: #fdfdfd; 
+    color: #fdfdfd;
+    font-size: 1.2vw; 
+}
+
+a {
+    text-decoration: none; 
+    color: #3da6de;
+    border: 2px solid #3084b1; 
+    padding: .5vw;
+    background-color: #fdfdfd;
+    margin-right: .5vw;
+    border-radius: 10px; 
+    font-weight: 900;
+     
+}
+
+h1, h2, h3 {
+    font-family: 'Bitter', serif;
+}
+
+main {
+    position: relative;
+    top: 7vw; 
+    width: 50vw; 
+    margin: 0 auto;
+    padding: 2vw;
+    font-size: 1.3vw
+}
+
+section{
+    font-family: 'Raleway', sans-serif;
+    border-bottom: .25em solid #fdfdfd;
+    margin-bottom: 2em; 
+}
+
+ul{
+    list-style-type: none;
+}
+
+i{
+    margin-right: .25em;
+}
+
+p{
+    line-height: 1.5em;
 }
 
 .header-flex-container { 
@@ -20,102 +64,39 @@ body{
     background-color: #3695c7;
     flex-direction: row-reverse; 
     justify-content: space-between; 
-    padding: 0 50px 0 50px;
+    padding: 0 5vw 0 5vw;
     border-radius: 0 0 15px 15px;    
     align-items: center; 
-    width: 75vw; 
-    margin: 0 auto
-}
-
-nav{
-    display: block
-}
-
-nav a{
-    color: #fdfdfd ;
-    text-decoration: none; 
-}
-
-h1, h2, h3 {
-    font-family: 'Bitter', serif;
-}
-
-main {
-    position: relative;
-    top: 50px; 
-    width: 75vw; 
+    width: 95vw; 
     margin: 0 auto;
-    padding: 50px;  
+    border-left: .1em solid #3084b1;
+    border-right: .1em solid #3084b1;
+    border-bottom: .1em solid #3084b1
 }
 
-section{
-    font-family: 'Raleway', sans-serif;
-    min-height: 100px; 
-}
 
 .screenshot{
-    width: 25vw;
-    height: 10vw; 
-}
-
-p{
-    line-height: 25px; 
-    width: 100%; 
+    width: 40vw;
+    height: 20vw;
+    margin-bottom: 1vw;  
 }
 
 
-/* @media only screen and (min-width: 768px) {
-    nav{
-        text-align: left;
-        font-size: 20px;  
-    }
+.projects-container{
+    display: flex;
+    justify-content: space-between;
+    width: 40vw; 
+}
 
-    body{
-        font-size: 125%; 
-    }
+.project-description{
+    width: 35vw; 
+    margin: 1.5em auto 1.5em auto; 
+}
 
-    p{
-        width: 75vw; 
-    }
 
-    hr{
-        width: 75vw; 
-        margin-left: 0; 
-    }
-    .screenshot{
-        width: 500px;  
-        height: 300px;  
-    }
-    h3{
-        width: 75vw; 
-    }
-} 
+.contact-list li{
+    display: flex; 
+    align-items: center; 
+}
 
-@media only screen and (min-width: 1024px) {
-    body{
-        font-size: 125%;
-        margin-left: 25%;   
-    
-    p{
-        width: 50vw; 
-        }
-
-    hr{
-        width: 50vw;
-        margin-left: 0;
-    }
-
-    h3{
-        width: 50vw; 
-    }
-    
-    nav{
-        text-align: center; 
-    }
-
-    .screenshot{
-        width: 600px; 
-        height: 300px; 
-    }
-} */
 
