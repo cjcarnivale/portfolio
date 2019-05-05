@@ -110,7 +110,8 @@ p{
         margin-bottom: 1em; 
     }
     .tech-container{
-        width: 60vw; 
+        width: 60vw;
+        font-size: 2vw; 
     }
     
     .project-description{
