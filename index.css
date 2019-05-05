@@ -1,40 +1,51 @@
-* {
-    box-sizing: border-box;
+*{
+    box-sizing: border-box
 }
 
 *:focus{
     color: red; 
 }
 
-a{
-    color: white; 
-}
 body{
-    background-color: #003366;
-    color: white;  
+    background-color: #2a749b;
+    color: #fdfdfd; 
+}
+
+.header-flex-container { 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    display: flex; 
+    background-color: #3695c7;
+    flex-direction: row-reverse; 
+    justify-content: space-between; 
+    padding: 0 50px 0 50px;
+    border-radius: 0 0 15px 15px;    
+    align-items: center; 
+    width: 75vw; 
+    margin: 0 auto
 }
 
 nav{
-    font-family: 'Raleway', sans-serif;
-    position: fixed;
-    top: 0;
-    right: 0; 
-    background-color:  #ffd700;
-    width: 100%;
-    font-size: 12px;
-    text-align: right; 
-    color: #003366; 
+    display: block
 }
+
 nav a{
-    color: #003366;
+    color: #fdfdfd ;
+    text-decoration: none; 
 }
 
-h2 {
+h1, h2, h3 {
     font-family: 'Bitter', serif;
 }
 
-header{
-    font-family: 'Bitter', serif;
+main {
+    position: relative;
+    top: 50px; 
+    width: 75vw; 
+    margin: 0 auto;
+    padding: 50px;  
 }
 
 section{
@@ -43,9 +54,8 @@ section{
 }
 
 .screenshot{
-    width: 400px;
-    height: 200px; 
-
+    width: 25vw;
+    height: 10vw; 
 }
 
 p{
@@ -53,15 +63,8 @@ p{
     width: 100%; 
 }
 
-h3{
-    font-family: 'Raleway', sans-serif; 
-}
 
-hr{
-    background-color: #ffd700
-}
-
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
     nav{
         text-align: left;
         font-size: 20px;  
@@ -92,7 +95,6 @@ hr{
     body{
         font-size: 125%;
         margin-left: 25%;   
-    }
     
     p{
         width: 50vw; 
@@ -115,5 +117,5 @@ hr{
         width: 600px; 
         height: 300px; 
     }
-}
+} */
 
