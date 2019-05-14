@@ -6,6 +6,16 @@
     color: red; 
 }
 
+html{
+    scroll-behavior: smooth; 
+}
+
+body::before{
+    height: 5vw;
+    display: block; 
+    content: " " 
+}
+
 body{
     background-color: #2a749b;
     color: #fdfdfd;
@@ -23,6 +33,15 @@ a {
     font-weight: 900;
      
 }
+
+h2::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -9vw; 
+    height: 9vw; 
+    visibility: hidden; 
+    pointer-events: none;
+  }
 
 h1, h2, h3 {
     font-family: 'Bitter', serif;
@@ -53,6 +72,9 @@ p{
 }
 
 .header-flex-container {  
+    position: fixed; 
+    top: 0;
+    right: 2vw; 
     display: flex; 
     background-color: #3695c7;
     flex-direction: row-reverse; 
@@ -121,6 +143,19 @@ p{
         width: 60vw;
         height: 30vw; 
     }
+    body::before{
+        height: 25vw;
+        display: block; 
+        content: " " 
+    }
+    h2::before { 
+        display: block; 
+        content: " "; 
+        margin-top: -25vw; 
+        height: 25vw; 
+        visibility: hidden; 
+        pointer-events: none;
+      }
 }
 
 
