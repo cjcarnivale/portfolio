@@ -55,7 +55,7 @@ main {
 section{
     font-family: 'Raleway', sans-serif;
     border-bottom: .25em solid #fdfdfd;
-    margin-bottom: 2em; 
+    margin-bottom: 2em;
 }
 
 ul{
@@ -68,6 +68,7 @@ i{
 
 p{
     line-height: 1.5em;
+    text-align: justify; 
 }
 
 .header {
@@ -119,13 +120,19 @@ p{
 .project-description{
     width: 35vw; 
     margin-top: 1.5em;  
-    margin-bottom: 1.5em ; 
+    margin-bottom: 1.5em;
+    margin-left: auto; 
+    margin-right: auto;  
 }
 
 .contact-list li{
     display: flex; 
     align-items: center;
     margin-bottom: 1em;  
+}
+
+.section-projects {
+    width: 40vw; 
 }
 
 
@@ -135,7 +142,7 @@ p{
         }
 
         main{
-            width: 75vw;
+            width: 80vw;
         }
 
         .header-flex-container{
@@ -149,8 +156,13 @@ p{
             font-size: 2vw; 
         }
         
+
+        .section-projects {
+            width: 80vw; 
+        }
+
         .project-description{
-            width: 80vw;  
+            width: 70vw;   
         }
 
         .screenshot{
@@ -181,6 +193,9 @@ p{
         .header {
             width: 90vw; 
             justify-content: flex-start;
+        }
+        .section {
+            width: 80vw
         }
     }
 
