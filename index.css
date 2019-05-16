@@ -40,7 +40,7 @@ h2::before {
     height: 9vw; 
     visibility: hidden; 
     pointer-events: none;
-  }
+}
 
 h1, h2, h3 {
     font-family: 'Bitter', serif;
@@ -72,7 +72,6 @@ p{
 
 .header {
     display: flex;
-    /* justify-content: center; */
     align-items: center
 }
 
@@ -125,76 +124,88 @@ p{
 
 .contact-list li{
     display: flex; 
-    align-items: center; 
+    align-items: center;
+    margin-bottom: 1em;  
 }
 
 
 @media screen and (max-width: 1024px){
-    body{
-        font-size: 3vw; 
-    }
+        body{
+            font-size: 3vw; 
+        }
 
-    main{
-        width: 75vw;
-    }
+        main{
+            width: 75vw;
+        }
 
-    .header-flex-container{
-        flex-direction: column-reverse; 
-        padding-bottom: 1.5em;
-        margin-bottom: 1em; 
-    }
+        .header-flex-container{
+            flex-direction: column-reverse; 
+            padding-bottom: 1.5em;
+            margin-bottom: 1em; 
+        }
 
-    .tech-container{
-        width: 60vw;
-        font-size: 2vw; 
-    }
-    
-    .project-description{
-        width: 60vw;  
-    }
+        .tech-container{
+            width: 80vw;
+            font-size: 2vw; 
+        }
+        
+        .project-description{
+            width: 80vw;  
+        }
 
-    .screenshot{
-        width: 60vw;
-        height: 30vw; 
-    }
+        .screenshot{
+            width: 80vw;
+            height: 40vw; 
+        }
 
-    body::before{
-        height: 25vw;
-        display: block; 
-        content: " " 
-    }
+        body::before{
+            height: 25vw;
+            display: block; 
+            content: " " 
+        }
 
-    h2::before { 
-        display: block; 
-        content: " "; 
-        margin-top: -25vw; 
-        height: 25vw; 
-        visibility: hidden; 
-        pointer-events: none;
-    }
+        h2::before { 
+            display: block; 
+            content: " "; 
+            margin-top: -25vw; 
+            height: 25vw; 
+            visibility: hidden; 
+            pointer-events: none;
+        }
 
-    /* positioning doesn't work correctly for safari browser
-    suspect css reset
-    logo hidden on mobile
-    ToDo: use different reset and adjust styling accoridingly */
+        .logo {
+            height: 3.5em;
+            width: 3.5em;
+        }
 
-    .logo {
-        /* position: absolute;
-        top: .75em;  
-        left: 1em;  */
-        height: 3.5em;
-        width: 3.5em;
+        .header {
+            width: 90vw; 
+            justify-content: flex-start;
+        }
     }
-
-    .header {
-        width: 90vw; 
-        justify-content: flex-start;
-    }
-}
 
 @media screen and (max-width: 768px){
- 
-    main{
-        width: 80vw;  
+        main{
+            width: 90vw;  
+        }
+
+        .tech-container a {
+            font-size: 1.5em; 
+        }
+
+        .contact-list a {
+            font-size: 1em; 
+        }
+        
+        .contact-list {
+            padding: 0; 
+        }
+        
+        .tech-container{
+            flex-direction: column; 
+        }
+
+        .project-links {
+            margin-top: 1em; 
+        }
     }
-}
