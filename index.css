@@ -72,7 +72,7 @@ p{
 
 .header {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center
 }
 
@@ -179,21 +179,16 @@ p{
     ToDo: use different reset and adjust styling accoridingly */
 
     .logo {
-        position: absolute;
+        /* position: absolute;
         top: .75em;  
-        left: 1em; 
+        left: 1em;  */
         height: 3.5em;
         width: 3.5em;
     }
 
     .header {
-        display: relative;
-        justify-content: normal; 
-        align-items: normal;  
-    }
-
-    h1 {
-        letter-spacing: 0px;
+        width: 90vw; 
+        justify-content: flex-start;
     }
 }
 
