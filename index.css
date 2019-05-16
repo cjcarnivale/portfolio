@@ -145,6 +145,18 @@ p{
             width: 80vw;
         }
 
+        p {
+            font-size: 4vw
+        }
+
+        h2 {
+            font-size: 2em; 
+        }
+
+        h3 {
+            font-size: 1.5em; 
+        }
+
         .header-flex-container{
             flex-direction: column-reverse; 
             padding-bottom: 1.5em;
@@ -153,7 +165,7 @@ p{
 
         .tech-container{
             width: 80vw;
-            font-size: 2vw; 
+            font-size: 2.75vw; 
         }
         
 
@@ -167,7 +179,7 @@ p{
 
         .screenshot{
             width: 80vw;
-            height: 40vw; 
+            height: 50vw; 
         }
 
         body::before{
@@ -179,8 +191,8 @@ p{
         h2::before { 
             display: block; 
             content: " "; 
-            margin-top: -25vw; 
-            height: 25vw; 
+            margin-top: -30vw; 
+            height: 30vw; 
             visibility: hidden; 
             pointer-events: none;
         }
@@ -204,7 +216,7 @@ p{
             width: 90vw;  
         }
 
-        .tech-container a {
+        a {
             font-size: 1.5em; 
         }
 
