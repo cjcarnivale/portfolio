@@ -176,6 +176,11 @@ p{
         pointer-events: none;
     }
 
+    /* positioning doesn't work correctly for safari browser
+    suspect css reset
+    logo hidden on mobile
+    ToDo: use different reset and adjust styling accoridingly */
+
     .logo {
         position: absolute;
         /* top: .75em;  
