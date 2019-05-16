@@ -31,7 +31,6 @@ a {
     margin-right: .5vw;
     border-radius: 10px; 
     font-weight: 900;
-     
 }
 
 h2::before { 
@@ -69,6 +68,19 @@ i{
 
 p{
     line-height: 1.5em;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.logo {
+    height: 5vw;
+    width: 5vw; 
+    margin-right: 1em;
+
 }
 
 .header-flex-container {  
@@ -121,16 +133,20 @@ p{
     body{
         font-size: 3vw; 
     }
+
     main{
         width: 75vw;
     }
+
     .header-flex-container{
         flex-direction: column-reverse; 
         padding-bottom: 1.5em; 
     }
+
     .header-flex-container a{
         margin-bottom: 1em; 
     }
+
     .tech-container{
         width: 60vw;
         font-size: 2vw; 
@@ -139,15 +155,18 @@ p{
     .project-description{
         width: 60vw;  
     }
+
     .screenshot{
         width: 60vw;
         height: 30vw; 
     }
+
     body::before{
         height: 25vw;
         display: block; 
         content: " " 
     }
+
     h2::before { 
         display: block; 
         content: " "; 
@@ -155,7 +174,15 @@ p{
         height: 25vw; 
         visibility: hidden; 
         pointer-events: none;
-      }
+    }
+
+    .logo {
+        position: absolute;
+        top: 2.75vw;  
+        left: 3vw; 
+        height: 10vw;
+        width: 10vw;
+    }
 }
 
 
