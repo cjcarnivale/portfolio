@@ -178,8 +178,8 @@ p{
 
     .logo {
         position: absolute;
-        top: 2.75vw;  
-        left: 2vw; 
+        top: .75em;  
+        left: 1em; 
         height: 10vw;
         width: 10vw;
     }
