@@ -212,6 +212,10 @@ p{
     }
 
 @media screen and (max-width: 768px){
+        h1{
+            font-size: 2.25em; 
+        }
+    
         main{
             width: 90vw;  
         }
