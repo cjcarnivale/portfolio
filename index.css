@@ -58,7 +58,6 @@ main {
 
 section {
   font-family: "Raleway", sans-serif;
-  border-bottom: 0.25em solid #fdfdfd;
   margin-bottom: 2em;
 }
 
@@ -131,6 +130,19 @@ p {
   display: flex;
   align-items: center;
   margin-bottom: 1em;
+}
+
+.section-projects{
+  width: 40vw; 
+}
+
+.contact-section{
+  border-top: .25em solid #fdfdfd;
+  border-bottom: .25em solid #fdfdfd
+}
+
+.about-me-section{
+  border-bottom: .25em solid #fdfdfd
 }
 
 
@@ -248,15 +260,15 @@ p {
   }
   
   h2{
-    font-size: 3em; 
+    font-size: 3.25em; 
   }
 
   h3 {
-    font-size: 2.5em; 
+    font-size: 2.75em; 
   }
 
   p {
-    font-size: 2.5em; 
+    font-size: 2.75em; 
   }
 
   a{
